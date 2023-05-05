@@ -56,6 +56,7 @@ btn.onclick = function(event){
 function delSpanText (){
     setTimeout (function() {
         errorPasword.innerHTML = "";
+        clearInterval(delSpanText)
     }, 1000)
 }
 
